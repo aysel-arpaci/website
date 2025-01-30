@@ -1,6 +1,6 @@
 // simple interactive feature, like a button that changes the background color when clicked.
 
-// Wit until the DOM is fully loaded. Ensures the script runs after html is fully loaded
+// Wait until the DOM is fully loaded. Ensures the script runs after html is fully loaded
 document.addEventListener("DOMContentLoaded", function() {
     // Get the button element by its ID=colorButton
     const button = document.getElementById("colorButton");
