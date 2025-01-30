@@ -1,10 +1,11 @@
 <!DOCTYPE html> <!--Declares this file as an HTML5 document-->
 <html lang="en"> <!--Defines the language for the page-->
     <head> <!--Contains metadata like character set, viewport settings, title, and linked files-->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8"> <!--Unicode Transformation Format - 8 bit to use all the letters of the most alphabets like ü, ç without it it looks like garbage text (� or ???)-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--width=device-width: Makes the webpage fit the screen size of the device.
+        initial-scale=1.0: Ensures the page loads at normal zoom instead of being zoomed in or out.-->
         <title>website</title> <!--Sets the title displayed on the browser tab-->
-        <link rel="stylesheet" href="style.css"> <!--Connects the css file for styling-->
+        <link rel="stylesheet" href="style.css"> <!--Connects the css file for styling stylesheet means CSS, href is the location(since it is in the same file it is just the name)-->
     </head>
     <body> <!--Contains everything visible on the page-->
         <header> <!--Holds the main heading-->
@@ -19,3 +20,25 @@
         <script src="script.js"></script> <!--Connects the javascript file for interactivity-->
     </body>
 </html>
+
+<!--
+2.2: Linking a Website Icon (Favicon)
+html
+Copy
+Edit
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+What It Does
+This adds an icon to the browser tab (like YouTube’s red play icon).
+rel="icon" → Specifies that this is a favicon.
+href="favicon.ico" → The location of the icon file.
+type="image/x-icon" → Specifies the file type.
+Example: Without a Favicon
+If you don’t include this, the browser uses a default blank document icon instead.
+-->
+
+<!--
+<script>
+    console.log("This is JavaScript running inside HTML!");
+</script>
+This runs JavaScript immediately when the page loads.
+-->
